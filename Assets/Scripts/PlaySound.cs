@@ -7,22 +7,16 @@ public class PlaySound : MonoBehaviour
     public AudioSource audiosource;
     void Start()
     {
-        Debug.Log("Pääsee tänne asti!");
         audiosource = GetComponent<AudioSource>();
     }
-        
-    private void OnControllerColliderHit(ControllerColliderHit hit) 
+
+    private void OnCollisionEnter(Collision collision)
     {
-        switch(hit.gameObject.tag)
+        if (collision.gameObject.tag == "FPS_Player")
         {
-            case "JumpPad":
-                Debug.Log("BOUNCE!");
-                audiosource.Play();
-                break;
-            case "Ground":
-                Debug.Log("GROUND!");
-                break;
+            audiosource.Play();
         }
+
     }
-    
+
 }

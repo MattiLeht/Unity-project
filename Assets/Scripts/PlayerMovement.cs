@@ -50,6 +50,7 @@ public class PlayerMovement : MonoBehaviour
             case "JumpPad":
                 jumpHeight = 20f;
                 velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+                //Debug.Log("BOUNCE!");
                 break;
             case "Ground":
                 jumpHeight = 3f;

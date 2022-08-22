@@ -7,6 +7,8 @@ TagManager:
   - Ladder
   - FPS_Player
   - Pressure
+  - JumpPad
+  - Ground
   layers:
   - Default
   - TransparentFX

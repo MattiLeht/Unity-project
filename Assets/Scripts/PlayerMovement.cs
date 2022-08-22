@@ -41,4 +41,17 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(velocity * Time.deltaTime);
     }
+    //Movement script for JumpPad and sorts. Case is "tag" 
+    private void OnControllerColliderHit(ControllerColliderHit hit) 
+    {
+        switch(hit.gameObject.tag)
+        {
+            case "JumpPad":
+                jumpHeight = 20f;
+                break;
+            case "Ground":
+                jumpHeight = 3f;
+                break;
+        }
+    }
 }

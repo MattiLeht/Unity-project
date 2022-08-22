@@ -10,16 +10,7 @@ public class PlaySound : MonoBehaviour
         Debug.Log("Pääsee tänne asti!");
         audiosource = GetComponent<AudioSource>();
     }
-    
-    void OnCollisionEnter(Collision collision) 
-    {
-        if (collision.gameObject.CompareTag("FPS_Player"))
-        {
-            Debug.Log("Pääseekö tänne?");
-            audiosource.Play();
-        }
         
-    }
     private void OnControllerColliderHit(ControllerColliderHit hit) 
     {
         switch(hit.gameObject.tag)

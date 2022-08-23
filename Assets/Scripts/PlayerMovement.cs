@@ -51,6 +51,7 @@ public class PlayerMovement : MonoBehaviour
                 jumpHeight = 20f;
                 velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
                 //Debug.Log("BOUNCE!");
+                jumpHeight = 3f;
                 break;
             case "Ground":
                 jumpHeight = 3f;

@@ -13,8 +13,8 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundLayerMask;
-
-
+    public AudioSource footstepsSound;
+    public AudioSource jumpSound;
     Vector3 velocity;
     bool isGrounded;
     void Update()
@@ -33,8 +33,29 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime);
 
+        if (isGrounded && Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        {
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                footstepsSound.enabled = false;
+                
+            }
+            else
+            {
+                footstepsSound.enabled = true;
+                
+            }
+        }
+        else
+        {
+            footstepsSound.enabled = false;
+            
+        }
+
+
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
+            jumpSound.Play();
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 

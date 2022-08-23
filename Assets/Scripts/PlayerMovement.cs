@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundLayerMask;
 
+
     Vector3 velocity;
     bool isGrounded;
     void Update()
@@ -40,5 +41,21 @@ public class PlayerMovement : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+    }
+    //Movement script for JumpPad and sorts. Case is "tag" 
+    private void OnControllerColliderHit(ControllerColliderHit hit) 
+    {
+        switch(hit.gameObject.tag)
+        {
+            case "JumpPad":
+                jumpHeight = 20f;
+                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+                //Debug.Log("BOUNCE!");
+                jumpHeight = 3f;
+                break;
+            case "Ground":
+                jumpHeight = 3f;
+                break;
+        }
     }
 }

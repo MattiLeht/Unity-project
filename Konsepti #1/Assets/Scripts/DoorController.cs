@@ -5,21 +5,27 @@ using UnityEngine;
 public class DoorController : MonoBehaviour
 {
     public Animator doorAnimation;
-
+    public AudioSource AudioSource;
+   
+    public float SoundDelay;
     private void OnTriggerEnter(Collider other)
     {
 
         doorAnimation.SetBool("isOpening", true);
+        AudioSource.PlayDelayed(SoundDelay);    
     }
 
     private void OnTriggerExit(Collider other)
     {
+        AudioSource.PlayDelayed(SoundDelay);
         doorAnimation.SetBool("isOpening", false);
+        
     }
     // Start is called before the first frame update
     void Start()
     {
         doorAnimation = this.transform.parent.GetComponent<Animator>();
+        
     }
 
     private void Update()

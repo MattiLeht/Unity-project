@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1832.8
     height: 1046.4
   m_ShowMode: 4
+<<<<<<< Updated upstream
   m_Title: Hierarchy
+=======
+  m_Title: Inspector
+>>>>>>> Stashed changes
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,7 +125,11 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 78
+=======
+  controlID: 144
+>>>>>>> Stashed changes
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +154,11 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 79
+=======
+  controlID: 145
+>>>>>>> Stashed changes
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,10 +230,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 839.2
     y: 0
+<<<<<<< Updated upstream
     width: 226.39996
     height: 996.4
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    width: 339.20007
+    height: 1010.80005
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> Stashed changes
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -596,9 +615,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: 0, y: 3.4899998, z: 1.87}
     speed: 2
     m_Value: {x: 0, y: 3.4899998, z: 1.87}
+=======
+    m_Target: {x: -12.133755, y: 3.653501, z: -9.801459}
+    speed: 2
+    m_Value: {x: -12.133755, y: 3.653501, z: -9.801459}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -645,6 +670,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< Updated upstream
     m_Target: {x: -0.15106623, y: 0.6364339, z: -0.12922482, w: -0.7453846}
     speed: 2
     m_Value: {x: -0.15106623, y: 0.6364339, z: -0.12922482, w: -0.7453846}
@@ -652,6 +678,15 @@ MonoBehaviour:
     m_Target: 1.8034688
     speed: 2
     m_Value: 1.8034688
+=======
+    m_Target: {x: -0.097702645, y: -0.8056121, z: 0.13827315, w: -0.5678863}
+    speed: 2
+    m_Value: {x: -0.09769429, y: -0.80554324, z: 0.13826133, w: -0.5678378}
+  m_Size:
+    m_Target: 1.7970238
+    speed: 2
+    m_Value: 1.7970238
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -819,9 +854,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 36fbffff
+=======
+      m_SelectedIDs: 485c0000
+      m_LastClickedID: 23624
+      m_ExpandedIDs: 36fbffffb85a0000865b0000ba5b0000485c0000305d0000b05d0000
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -886,22 +927,28 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\parts\Konsepti #1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_SelectedIDs: be600000
     m_LastClickedID: 24766
     m_ExpandedIDs: 00000000986000009a6000009c6000009e600000a0600000a260000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 20610000
+    m_LastClickedID: 24864
+    m_ExpandedIDs: 00000000d460000000ca9a3bffffff7f
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -929,7 +976,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000986000009a6000009c6000009e600000a0600000a2600000
+=======
+    m_ExpandedIDs: 00000000d4600000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1020,7 +1071,11 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
+<<<<<<< Updated upstream
   m_LastVerticalScrollValue: 0
+=======
+  m_LastVerticalScrollValue: 948.80005
+>>>>>>> Stashed changes
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

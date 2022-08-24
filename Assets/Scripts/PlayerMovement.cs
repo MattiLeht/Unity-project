@@ -13,8 +13,10 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundLayerMask;
+
     public AudioSource footstepsSound;
     public AudioSource jumpSound;
+
     Vector3 velocity;
     bool isGrounded;
     void Update()
@@ -33,7 +35,9 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime);
 
-        if (isGrounded && Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+
+        // If player isGrounded and is using directional keys, then foostepsSound is playing
+        if (isGrounded && Input.GetKey("w") || isGrounded && Input.GetKey("a") || isGrounded && Input.GetKey("s") || isGrounded && Input.GetKey("d"))
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
@@ -52,9 +56,11 @@ public class PlayerMovement : MonoBehaviour
             
         }
 
-
+        
+   
         if (Input.GetButtonDown("Jump") && isGrounded)
-        {
+        {   
+            // Jumpsound is played
             jumpSound.Play();
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
@@ -78,5 +84,15 @@ public class PlayerMovement : MonoBehaviour
                 jumpHeight = 3f;
                 break;
         }
+    }
+
+    //Stops footstepsSound when player is colliding with ladders
+    void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == "Ladder")
+        {
+            footstepsSound.enabled = false;
+        }
+        
     }
 }

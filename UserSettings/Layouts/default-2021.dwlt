@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2752
     height: 1060.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 160
+  controlID: 135
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 161
+  controlID: 136
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,8 +337,8 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -351,18 +351,18 @@ MonoBehaviour:
       y: 21
       width: 1256.6
       height: 388.80005
-    m_Scale: {x: 1.1244956, y: 1.1244956}
-    m_Translation: {x: 557.30566, y: 218.60197}
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 628.3, y: 194.40002}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -495.605
+      x: -628.3
       y: -194.40002
-      width: 1117.4788
-      height: 345.75507
+      width: 1256.6
+      height: 388.80005
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1570.75, y: 512.25006}
@@ -596,9 +596,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -28, y: 0.42000008, z: -8.13}
+    m_Target: {x: 25.724195, y: 16.907963, z: -20.354973}
     speed: 2
-    m_Value: {x: -28, y: 0.42000008, z: -8.13}
+    m_Value: {x: 25.724195, y: 16.907963, z: -20.354973}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -645,20 +645,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.025811637, y: 0.9465013, z: -0.31221518, w: -0.0786476}
+    m_Target: {x: 0.19034614, y: 0.61313957, z: -0.15520553, w: 0.7509715}
     speed: 2
-    m_Value: {x: -0.025809122, y: 0.94640917, z: -0.31218478, w: -0.07863994}
+    m_Value: {x: 0.19032533, y: 0.6130726, z: -0.15518858, w: 0.7508894}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 39.365982
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 39.365982
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.82589996
-    m_SpeedNormalized: 0.40999997
+    m_Speed: 0.70649993
+    m_SpeedNormalized: 0.34999996
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -838,7 +838,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 36fbffff
+      m_ExpandedIDs: c87fffff3284ffffa093ffff7c96ffff90a9ffff8caaffff78d2ffff82d7ffffd2d7ffff28e2ffff1cf1ffffaaf1ffff0af4ffff60f4ffff58f6ffffe8f7ffff90f8ffff36fbffff0e700000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -903,22 +903,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sounds
+    - Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sounds
+  - Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Prefabs/Doors
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\parts\OneDrive\Tiedostot\GitHub\Unity-project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4e610000
-    m_LastClickedID: 24910
-    m_ExpandedIDs: 00000000186100001a6100001c6100001e61000020610000226100002461000000ca9a3bffffff7f
+    m_SelectedIDs: 38690000
+    m_LastClickedID: 26936
+    m_ExpandedIDs: 00000000186100001a6100001c6100001e6100002061000022610000246100000e690000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -1528,7 +1528,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 0cae160a47cd131498b1b7d72a7e49d7, type: 2}
+=======
+  - {fileID: 2100000, guid: a132f9e0eec2a5240aaa62550f9586e1, type: 2}
+>>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1853,7 +1857,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 0cae160a47cd131498b1b7d72a7e49d7, type: 2}
+=======
+  - {fileID: 2100000, guid: a132f9e0eec2a5240aaa62550f9586e1, type: 2}
+>>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2982,7 +2990,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 0cae160a47cd131498b1b7d72a7e49d7, type: 2}
+=======
+  - {fileID: 2100000, guid: a132f9e0eec2a5240aaa62550f9586e1, type: 2}
+>>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5555,7 +5567,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 0cae160a47cd131498b1b7d72a7e49d7, type: 2}
+=======
+  - {fileID: 2100000, guid: a132f9e0eec2a5240aaa62550f9586e1, type: 2}
+>>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5747,7 +5763,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 0cae160a47cd131498b1b7d72a7e49d7, type: 2}
+=======
+  - {fileID: 2100000, guid: a132f9e0eec2a5240aaa62550f9586e1, type: 2}
+>>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5868,7 +5888,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< Updated upstream
   - {fileID: 2100000, guid: 0cae160a47cd131498b1b7d72a7e49d7, type: 2}
+=======
+  - {fileID: 2100000, guid: a132f9e0eec2a5240aaa62550f9586e1, type: 2}
+>>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

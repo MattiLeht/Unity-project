@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController controller;
 
     public float speed = 12f;
+    public float sprintSpeed = 1f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
 
@@ -15,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayerMask;
 
     public AudioSource footstepsSound;
+    public AudioSource sprintSound;
     public AudioSource jumpSound;
 
     Vector3 velocity;
@@ -35,25 +37,28 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime);
 
-
+        
         // If player isGrounded and is using directional keys, then foostepsSound is playing
         if (isGrounded && Input.GetKey("w") || isGrounded && Input.GetKey("a") || isGrounded && Input.GetKey("s") || isGrounded && Input.GetKey("d"))
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
                 footstepsSound.enabled = false;
-                
+                controller.Move(move * (speed + sprintSpeed) * Time.deltaTime);
+                sprintSound.enabled = true;
+
             }
             else
             {
                 footstepsSound.enabled = true;
-                
+                sprintSound.enabled = false;
+
             }
         }
         else
         {
             footstepsSound.enabled = false;
-            
+            sprintSound.enabled = false;
         }
 
         
